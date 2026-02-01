@@ -1,6 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-const query: Record<string, any> = {};
-import { FilterQuery } from "mongoose";
+import { FilterQuery } from 'mongoose';
 
 import Product from "../models/product.js";
 import {
